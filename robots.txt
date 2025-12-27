@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mp3edit.online/sitemap.xml

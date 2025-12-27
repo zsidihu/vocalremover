@@ -1,80 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-		<title>TuneBlitz.app</title>
-		<style>
-			html,
-			body {
-				width : 100%;
-				height: 100%;
+<!DOCTYPE html><html lang="en"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vocal Remover - Free Online AI Stem Splitter | Mp3Edit</title><meta name="description" content="Remove vocals from any song for free with AI. High-quality stem separation (vocals, drums, bass, instruments) directly in your browser. No upload needed, 100% private."><meta name="keywords" content="vocal remover, stem separation, AI music splitter, karaoke maker, remove vocals, extract instrumentals, browser-based vocal remover"><meta name="robots" content="index, follow"><link rel="canonical" href="https://vocalremover.dev/"><meta property="og:type" content="website"><meta property="og:url" content="https://vocalremover.dev/"><meta property="og:title" content="Vocal Remover AI - High-Quality Stem Separation"><meta property="og:description" content="Separate vocals and instruments with professional AI quality directly in your browser. Fast, free, and private."><meta property="og:image" content="https://vocalremover.dev/assets/og/og-image.jpg"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://vocalremover.dev/"><meta property="twitter:title" content="Vocal Remover AI - Browser-Based Stem Splitter"><meta property="twitter:description" content="Professional AI stem separation without uploading your files. Try it for free now!"><meta property="twitter:image" content="https://vocalremover.dev/assets/og/og-image.jpg"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"><link rel="manifest" href="assets/favicon/site.webmanifest"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preload" href="assets/style.css" as="style"><link rel="preload" href="assets/super.css" as="style"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/super.css"><script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/lame.min.js" defer="defer"></script><script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js" defer="defer"></script><script type="application/ld+json">{
+			"@context": "https://schema.org",
+			"@type": "WebApplication",
+			"name": "Mp3Edit Vocal Remover",
+			"url": "https://vocalremover.dev/",
+			"description": "AI-powered vocal remover and stem separation tool that works entirely in the web browser.",
+			"applicationCategory": "MultimediaApplication",
+			"operatingSystem": "Any",
+			"offers": {
+				"@type": "Offer",
+				"price": "0",
+				"priceCurrency": "USD"
+			},
+			"featureList": [
+				"AI Vocal Removal",
+				"Stem Separation",
+				"Instrumental Extraction",
+				"In-browser processing (Privacy focused)",
+				"Vocals and instruments separation"
+			],
+			"softwareHelp": {
+				"@type": "CreativeWork",
+				"url": "https://vocalremover.dev/"
 			}
-
-			html {
-				display: table;
-				font-family: Lato, "Segoe UI", Avenir, Ubuntu, Tahoma, Verdana, Helvetica, sans-serif;
-			}
-
-			body {
-				display: table-cell;
-				vertical-align: middle;
-				text-align: center;
-			}
-
-			h1 {
-				font-size: 4em;
-				font-weight: normal;
-				text-transform: lowercase;
-			}
-
-			svg {
-				width : 250px;
-				height: 250px;
-			}
-		</style>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPZLWX38SW"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-XPZLWX38SW');
-		</script>
-	</head>
-	<body>
-		<svg xmlns="http://www.w3.org/2000/svg" id="coming_soon" enable-background="new 0 0 512 512" height="512px" viewBox="0 0 512 512" width="512px">
-			<g>
-				<g>
-					<circle cx="319.528" cy="256" fill="#95d6a4" r="184.972" data-original="#95D6A4" class="active-path" style="fill:#E33B3B" data-old_color="#95d6a4" />
-					<path d="m319.528 71.029c-4.682 0-9.322.178-13.917.52 95.656 7.115 171.055 86.976 171.055 184.451s-75.399 177.336-171.055 184.452c4.595.342 9.235.52 13.917.52 102.157-.001 184.972-82.815 184.972-184.972s-82.815-184.971-184.972-184.971z" fill="#78c2a4" data-original="#78C2A4" class="" style="fill:#FB5252" data-old_color="#78c2a4" />
-					<circle cx="319.528" cy="256" fill="#f4fbff" r="142.033" data-original="#F4FBFF" class="" style="fill:#F4FBFF" />
-					<path d="m319.528 113.967c-4.321 0-8.594.204-12.817.582 72.435 6.48 129.215 67.33 129.215 141.451s-56.78 134.97-129.215 141.451c4.223.377 8.496.582 12.817.582 78.443 0 142.033-63.59 142.033-142.032 0-78.444-63.59-142.034-142.033-142.034z" fill="#daf1f4" data-original="#DAF1F4" class="" />
-					<g>
-						<path d="m38.872 149.21h79.098c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m115.258 185.317h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m7.5 237.327h76.512c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m125.47 370.289c0-4.143-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h79.098c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m115.258 311.683h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m91.512 282.173c0-4.143-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h76.512c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m319.529 165.83c4.143 0 7.5-3.357 7.5-7.5v-11.448c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v11.448c0 4.143 3.357 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m401.99 173.538c-2.93-2.928-7.678-2.928-10.607 0l-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.931 2.929 7.678 2.928 10.607 0l8.095-8.095c2.928-2.929 2.928-7.677 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m417.199 248.5c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h11.447c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m393.895 319.759c-2.93-2.928-7.678-2.928-10.607 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.931 2.929 7.678 2.928 10.607 0 2.929-2.93 2.929-7.678 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m312.029 353.67v11.447c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-11.447c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m245.162 319.759-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.93 2.929 7.678 2.928 10.606 0l8.095-8.095c2.929-2.93 2.929-7.678 0-10.607-2.928-2.928-7.677-2.928-10.606 0z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m210.411 248.5c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h11.448c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m255.769 181.633-8.095-8.095c-2.929-2.928-7.678-2.928-10.606 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.93 2.929 7.678 2.928 10.606 0 2.929-2.929 2.929-7.677 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m359.859 256c0-4.143-3.357-7.5-7.5-7.5h-25.33v-55.684c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v63.184c0 4.143 3.357 7.5 7.5 7.5h32.83c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m461.741 254.762c4.135-.251 7.283-3.806 7.032-7.94-4.771-78.703-70.327-140.354-149.245-140.354-82.452 0-149.532 67.08-149.532 149.533 0 82.452 67.08 149.532 149.532 149.532 73.869 0 136.9-54.122 147.865-127.157.615-4.096-2.207-7.915-6.304-8.53-4.086-.613-7.915 2.206-8.53 6.304-9.85 65.614-66.506 114.384-133.031 114.384-74.181 0-134.532-60.351-134.532-134.532s60.351-134.533 134.532-134.533c71.001 0 129.98 55.461 134.272 126.263.25 4.132 3.802 7.27 7.941 7.03z" data-original="#000000" class="" style="fill:#000000" />
-						<path d="m319.528 63.529c-26.381 0-52.228 5.473-76.018 15.708h-132.329c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h104.113c-14.077 9.06-27.036 19.988-38.462 32.604-2.78 3.069-2.546 7.812.524 10.593 3.071 2.781 7.812 2.546 10.594-.524 33.602-37.102 81.561-58.381 131.578-58.381 97.858 0 177.472 79.613 177.472 177.471 0 97.857-79.613 177.471-177.472 177.471-97.858 0-177.471-79.613-177.471-177.471 0-34.268 9.789-67.528 28.307-96.186 2.248-3.479 1.25-8.121-2.229-10.369-3.479-2.247-8.121-1.251-10.37 2.229-20.09 31.088-30.708 67.163-30.708 104.326 0 67.766 35.206 127.458 88.285 161.763h-104.16c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h132.225c23.36 10.099 49.097 15.708 76.122 15.708 106.128 0 192.471-86.342 192.471-192.471s-86.343-192.471-192.472-192.471z" data-original="#000000" class="" style="fill:#000000" />
-					</g>
-				</g>
-			</g>
-		</svg>
-		<h1>Coming soon!</h1>
-	</body>
-</html>
+		}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XPZLWX38SW"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-XPZLWX38SW")</script><body class="bg-slate-950 text-slate-200 min-h-screen flex flex-col items-center justify-center py-4"><div id="status-window" class="fixed top-0 left-0 right-0 mx-auto z-50 transform transition-all duration-500 ease-out -translate-y-24 opacity-0 pointer-events-none flex justify-center"><div class="status-card shadow-2xl rounded-b-2xl p-4 px-4 w-max min-w-[140px] max-w-[90vw] sm:max-w-md backdrop-blur-md bg-opacity-90 border-x border-b border-white/10 pointer-events-auto"><div class="flex justify-between items-center gap-4 sm:gap-6"><span id="floating-percent" class="text-[10px] sm:text-xs font-mono text-white-400 preload sm shrink-0" data-text="0%"></span> <span id="floating-infoMsg" class="text-[9px] sm:text-xs tracking-widest uppercase font-bold whitespace-nowrap overflow-hidden text-ellipsis"></span></div></div></div><div class="w-full max-w-2xl"><header class="text-center mb-12"><div class="inline-flex items-center justify-center gap-3 mb-12 p-3"><img alt="Mp3Edit - Online Free Vocal Remover" width="48" height="48" src="assets/256/256.png"> <span class="text-xl font-extrabold tracking-tight">Vocal <strong class="text-cyan-400">Remover</strong></span></div><h1 class="text-5xl md:text-7xl font-extrabold px-4 mb-6 tracking-tight">Separate <strong class="gradient-brand">vocals</strong><br>from any track.</h1><p class="text-slate-400 text-lg md:text-xl max-w-2xl px-4 mb-12">Professional-grade AI stem separation. No login, no server upload, no queue; totally free and runs entirely in your browser.</header><main class="bg-slate-900/50 border border-slate-800 rounded-3xl p-6 md:p-10 mb-12 shadow-2xl custom-blur"><div class="progress hidden flex items-enter justify-center text-base w-full"><div id="progress-percent" class="preload" data-text="0%"></div></div><div class="tracks hidden w-full max-w-2xl mx-auto py-8 px-4 mb-12 space-y-8"><div class="graph space-y-2" data-text="00:00"><div class="group relative pointer-events-none"><span class="absolute left-2 top-2 text-[10px] uppercase tracking-[0.3em] pointer-events-none text-white opacity-80">Vocal</span><canvas id="canvas-vocal" class="w-full h-32 transition-colors duration-300 pointer-events-none"></canvas><span class="absolute right-2 top-1 flex flex-col items-end gap-1"><label class="flex items-center gap-3 pointer-events-auto" data-value="100"><input type="range" id="vocal" min="0" max="1" step="0.01" value="1"></label></span></div><div class="group relative pointer-events-none"><span class="absolute left-2 top-2 text-[10px] uppercase tracking-[0.3em] pointer-events-none text-white opacity-80">Music</span><canvas id="canvas-music" class="w-full h-32 transition-colors duration-300 pointer-events-none"></canvas><span class="absolute right-2 top-1 flex flex-col items-end gap-1"><label class="flex items-center gap-3 pointer-events-auto" data-value="0"><input type="range" id="music" min="0" max="1" step="0.01" value="0"></label></span></div></div><div class="flex flex-col md:flex-row items-center justify-between gap-8 pt-4 border-t border-white/5"><div class="flex items-center gap-3"><a id="master-play-pause" class="flex justify-center items-center w-40 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 text-white text-xs font-bold transition-all border border-white/10" data-button="playBtn" href="#"><span class="flex items-center gap-2 whitespace-nowrap" id="playBuffer"><svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" heigh="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"/></svg> PLAY </span><span class="hidden flex items-center gap-2 whitespace-nowrap" id="stopBuffer"><svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" heigh="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5"/></svg> STOP</span></a></div><div class="flex items-center gap-3"><div class="relative"><a id="download-stems" class="flex justify-center items-center w-40 gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 text-white text-xs font-bold transition-all border border-white/10 focus:outline-none" data-button="saveBtn" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" heigh="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> DOWNLOAD</a><div id="download-menu" class="hidden absolute left-0 mt-2 w-40 rounded-xl bg-white/5 border border-white/10 shadow-xl z-50 overflow-hidden" data-button="menuDiv"><div><a href="#" class="block px-4 py-3 text-white text-xs font-bold hover:bg-white/10 transition-colors border-b border-white/5" data-button="saveVocal" role="button">vocal.mp3</a> <a href="#" class="block px-4 py-3 text-white text-xs font-bold hover:bg-white/10 transition-colors border-b border-white/5" data-button="saveMusic" role="button">music.mp3</a></div></div></div></div></div></div><div class="w-full max-w-2xl"><div class="py-12 px-4 flex flex-col items-center justify-center"><h3 class="text-xl font-semibold mb-2">Upload your audio file</h3><p class="text-slate-500 text-sm">MP3, WAV, or OGG up to 50MB</p><a class="disabled mt-8 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg whitespace-nowrap" data-button="uploadBtn" href="#" id="fileBtn" role="button">Select File</a></div></div></main><section class="w-full max-w-2xl px-6 py-12 prose prose-invert border-t border-white/5"><h2 class="text-2xl font-bold text-white mb-6">How to Remove Vocals from a Song Online?</h2><div class="space-y-4 text-slate-400 leading-relaxed"><p>Creating karaoke tracks or extracting acapellas has never been more accessible. Using <strong>mp3edit.online/vocal-remover</strong>, you can separate vocals from instruments using advanced AI technology directly in your browser.<h3 class="text-lg font-semibold text-slate-200 mt-6">Step-by-step Guide:</h3><ul class="list-decimal pl-5 space-y-2"><li><strong>Upload Track:</strong> Click "Select File" to upload your favorite song (MP3, WAV, or OGG).<li><strong>AI Processing:</strong> Wait a few seconds while our AI engine analyzes and splits the audio into separate stems.<li><strong>Preview Stems:</strong> Listen to the isolated vocals and the instrumental (karaoke) version separately.<li><strong>Download:</strong> Save the high-quality instrumental track or the extracted vocals to your device.</ul><h3 class="text-lg font-semibold text-slate-200 mt-6">Why Choose Our AI Vocal Remover?</h3><ul class="list-disc pl-5 space-y-2"><li><strong>Ultimate Privacy:</strong> Unlike other tools, our AI runs locally in your browser. Your music is never uploaded to any server.<li><strong>Professional Quality:</strong> We use state-of-the-art AI models to ensure clean vocal removal with minimal artifacts.<li><strong>All-in-One Stem Splitter:</strong> Not just for karaoke! Extract drums, bass, and other instruments for your music production or remixes.<li><strong>Fast & Free:</strong> No registration required. Get your stems instantly without waiting in queues or paying for credits.</ul></div></section><div class="flex flex-col items-center justify-center px-4 mb-12 w-full gap-6"><h3 class="text-center text-xl md:text-2xl font-semibold text-slate-200 tracking-tight w-full">Explore more audio tools</h3><div class="flex flex-row flex-wrap items-center justify-center gap-4 w-full text-sm md:text-base"><a href="pitch-changer/" class="flex items-center gap-2 group hover:text-white transition-colors whitespace-nowrap"><svg class="w-4 h-4 text-slate-600 group-hover:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg> <span class="text-slate-300 group-hover:text-white">Pitch Changer</span> </a><a href="tempo-changer/" class="flex items-center gap-2 group hover:text-white transition-colors whitespace-nowrap"><svg class="w-4 h-4 text-slate-600 group-hover:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> <span class="text-slate-300 group-hover:text-white">Tempo Changer</span> </a><a href="volume-changer/" class="flex items-center gap-2 group hover:text-white transition-colors whitespace-nowrap"><svg class="w-4 h-4 text-slate-600 group-hover:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span class="text-slate-300 group-hover:text-white">Volume Changer</span></a></div></div><footer class="mt-8 mx-4 flex flex-col items-center gap-4"><div class="flex items-center gap-3 px-4 py-2 bg-slate-900/80 rounded-full border border-slate-800 text-xs text-slate-400"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-emerald-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> Privacy Guaranteed: Files never leave your browser</div></footer></div><script src="assets/bundle.js" type="module" defer="defer"></script>
